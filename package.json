@@ -1,0 +1,23 @@
+{
+  "name": "cars",
+  "version": "0.0.0",
+  "description": "counters and reporters",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "mocha -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bouzuya/cars.git"
+  },
+  "author": "bouzuya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bouzuya/cars/issues"
+  },
+  "homepage": "https://github.com/bouzuya/cars",
+  "dependencies": {
+    "async": "~0.2.10"
+  }
+}
