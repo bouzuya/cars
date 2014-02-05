@@ -1,6 +1,6 @@
 {
   "name": "cars",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "counters and reporters",
   "main": "index.js",
   "scripts": {
