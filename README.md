@@ -11,6 +11,7 @@ Usage
     $
     $ # add counters
     $ npm install --save bouzuya/cars-counter-hatena-bookmark
+    $ npm install --save bouzuya/cars-counter-github
     $
     $ # add reporters
     $ npm install --save bouzuya/cars-reporter-console
@@ -21,6 +22,7 @@ Usage
     $ # configure if you need
     $ export HATENA_USERNAME='username'
     $ export HATENA_APIKEY='apikey'
+    $ export GITHUB_USERNAME='bouzuya'
     $
     $ npm start 
 

@@ -26,7 +26,13 @@ console.log('reporters: ' + util.inspect(reporters));
 
 async.reduce(counters, {}, function(counts, counter, next) {
   console.log('counter: ' + counter);
-  require(counter)(next);
+  require(counter)(function(err, newCounts) {
+    if (err) return next(err);
+    next(null, Object.keys(newCounts).reduce(function(counts, key) {
+      counts[key] = newCounts[key];
+      return counts;
+    }, counts));
+  });
 }, function(err, counts) {
   if (err) throw err;
 
