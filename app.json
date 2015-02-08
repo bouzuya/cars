@@ -10,9 +10,6 @@
     "CARS_TOKEN": {
       "description": "The token to update immediately",
       "generator": "secret"
-    },
-    "YOUR_COUNTERS_AND_REPORTERS_TOKEN": {
-      "description": "The token to use your counters and reporter"
     }
   },
   "addons": [
