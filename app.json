@@ -1,0 +1,21 @@
+{
+  "name": "cars",
+  "description": "A Web API server & CLI for counting and reporting your data",
+  "keywords": [
+    "cars"
+  ],
+  "website": "https://github.com/bouzuya/cars",
+  "repository": "https://github.com/bouzuya/cars",
+  "env": {
+    "CARS_TOKEN": {
+      "description": "The token to update immediately",
+      "generator": "secret"
+    },
+    "YOUR_COUNTERS_AND_REPORTERS_TOKEN": {
+      "description": "The token to use your counters and reporter"
+    }
+  },
+  "addons": [
+    "scheduler"
+  ]
+}

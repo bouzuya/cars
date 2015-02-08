@@ -1,0 +1,6 @@
+#!/usr/bin/env node
+
+var App = require('../').App;
+var app = new App();
+app.run();
+
