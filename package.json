@@ -1,7 +1,7 @@
 {
   "name": "cars",
   "description": "A Web API server & CLI for counting and reporting your data",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "author": {
     "name": "bouzuya",
     "mail": "m@bouzuya.net",
