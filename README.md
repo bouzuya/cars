@@ -70,7 +70,7 @@ See: [bouzuya/cars-example](https://github.com/bouzuya/cars-example)
 
 # License
 
-## 0.2.0
+## >= 0.2.0
 
 [MIT](LICENSE)
 
