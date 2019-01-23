@@ -62,12 +62,6 @@ e.g.
 ------------------|------|-----------
  $ npm run worker | 1X   | Daily
 
-### 8. keep alive settings (optional)
-
-You need to send a HTTP request every 10 minutes.
-
-e.g. [Uptime Robot](https://uptimerobot.com/) or [pingdom](https://www.pingdom.com/) or [New Relic](http://newrelic.com/).
-
 ## License
 
 ### >= 0.2.0
