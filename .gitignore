@@ -3,4 +3,5 @@
 /.tmp/
 /*.tgz
 /coverage/
+/lib/
 /node_modules/
