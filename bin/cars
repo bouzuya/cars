@@ -1,6 +1,3 @@
 #!/usr/bin/env node
-
-var CLI = require('../lib/cli').CLI;
-var cli = new CLI();
-cli.run();
-
+const { CLI } = require('../lib/cli');
+new CLI().run();

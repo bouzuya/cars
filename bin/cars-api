@@ -1,6 +1,3 @@
 #!/usr/bin/env node
-
-var App = require('../').App;
-var app = new App();
-app.run();
-
+const { API } = require('../lib/api');
+new API().run();
