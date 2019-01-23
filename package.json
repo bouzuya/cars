@@ -1,5 +1,5 @@
 {
-  "name": "cars",
+  "name": "@bouzuya/cars",
   "description": "A Web API server & CLI for counting and reporting your data",
   "version": "1.0.0",
   "author": {
