@@ -62,6 +62,19 @@ e.g.
 ------------------|------|-----------
  $ npm run worker | 1X   | Daily
 
+## Badges
+
+[![npm version][npm-badge-url]][npm-url]
+[![Travis CI][travisci-badge-url]][travisci-url]
+[![Coveralls][coveralls-badge-url]][coveralls-url]
+
+[coveralls-badge-url]: https://img.shields.io/coveralls/github/bouzuya/cars.svg
+[coveralls-url]: https://coveralls.io/github/bouzuya/cars
+[npm-badge-url]: https://img.shields.io/npm/v/bouzuya/cars.svg
+[npm-url]: https://www.npmjs.com/package/@bouzuya/cars
+[travisci-badge-url]: https://img.shields.io/travis/bouzuya/cars.svg
+[travisci-url]: https://travis-ci.org/bouzuya/cars
+
 ## License
 
 ### >= 0.2.0
