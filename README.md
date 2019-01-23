@@ -74,8 +74,8 @@ ISC
 
 ## Author
 
-[bouzuya][name] &lt;[m@bouzuya.net][email]&gt; ([bouzuya.net][url])
+[bouzuya][name] &lt;[m@bouzuya.net][email]&gt; ([https://bouzuya.net/][url])
 
 [name]: https://github.com/bouzuya/
 [email]: mailto:m@bouzuya.net
-[url]: http://bouzuya.net
+[url]: https://bouzuya.net/
