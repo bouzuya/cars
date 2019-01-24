@@ -13,11 +13,15 @@ const cars = async () => {
   const dependencies = Object.keys(pkg.dependencies || {});
 
   const counters = dependencies.filter((i) => {
-    return i.startsWith('cars-counter-');
+    const prefix = 'cars-counter-';
+    return i.startsWith(prefix) ||
+      (i.startsWith('@') && i.indexOf('/' + prefix) >= 0);
   });
 
   const reporters = dependencies.filter((i) => {
-    return i.startsWith('cars-reporter-');
+    const prefix = 'cars-reporter-';
+    return i.startsWith(prefix) ||
+      (i.startsWith('@') && i.indexOf('/' + prefix) >= 0);
   });
 
   if (counters.length === 0 || reporters.length === 0) {
