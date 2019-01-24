@@ -38,7 +38,7 @@ const cars = async () => {
     // tslint:disable:no-console
     console.log('counter: ' + counter);
     // tslint:enable
-    const f: Counter = require(counter);
+    const f: Counter = require(counter).default;
     const newCounts = await f();
     return { ...cs, ...newCounts };
   }, Promise.resolve<Counts>({}));
@@ -48,7 +48,7 @@ const cars = async () => {
     // tslint:disable:no-console
     console.log('reporter: ' + reporter);
     // tslint:enable
-    const f: Reporter = require(reporter);
+    const f: Reporter = require(reporter).default;
     await f(counts);
   }, Promise.resolve());
 };
